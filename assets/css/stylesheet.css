@@ -16,6 +16,7 @@
 .boton:hover{
   background-color: rgb(180, 176, 175);
 }
+
 a{
   text-decoration: none;
   color: white;
@@ -23,6 +24,9 @@ a{
 .navbar ,  footer{
   background-color: #000 !important;
   color: whitesmoke;
+}
+.logo{
+    width: 120px;    
 }
 .primero{
   background-color: rgb(34, 25, 7);
