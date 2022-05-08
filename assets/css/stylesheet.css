@@ -12,4 +12,53 @@
   background-color: #000;
   height: auto;
 }
+
+.boton:hover{
+  background-color: rgb(180, 176, 175);
+}
+a{
+  text-decoration: none;
+  color: white;
+}
+.navbar ,  footer{
+  background-color: #000 !important;
+  color: whitesmoke;
+}
+.primero{
+  background-color: rgb(34, 25, 7);
+  color: whitesmoke;
+}
+
+.img{
+  transition: all 1s;
+}
+
+.img:hover{
+  width: 380px;
+  transform: translate(0px, -20px);
+}
+
+@media (max-width: 992px){
+.ocultarSmMd{
+      display: none;
+  }
+}
+
+@media (max-width: 578px){
+
+.img{
+  transition: all 1s;
+  }
+  
+.img:hover{
+  width: 387px;
+  transform: translate(0px, -20px);
+  }
+  
+.ocultarSm{
+      display: none;
+
+  }    
+}
+
 /*# sourceMappingURL=stylesheet.css.map */
