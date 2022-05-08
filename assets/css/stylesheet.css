@@ -1,1 +1,15 @@
-/* No CSS *//*# sourceMappingURL=stylesheet.css.map */
+.boton, .boton-primario {
+  background-color: peru;
+  border: 0;
+  padding: 5px 10px;
+  border-radius: 5px;
+  color: #fff;
+  margin: 10px;
+  width: 100px;
+}
+
+.boton-primario {
+  background-color: #000;
+  height: auto;
+}
+/*# sourceMappingURL=stylesheet.css.map */

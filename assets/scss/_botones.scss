@@ -1,0 +1,14 @@
+.boton{
+    background-color: peru;
+    border: map-get($boton , borde );
+    padding: map-get($boton , padding );
+    border-radius: map-get($boton, radio );
+    color: map-get($boton , color );
+    margin: map-get($boton , margen );
+    width: 100px;
+}
+.boton-primario{
+    @extend .boton;
+    background-color: $color-primario;
+    height: auto;
+}

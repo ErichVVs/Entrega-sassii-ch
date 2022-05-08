@@ -1,8 +1,10 @@
 {
     "version": 3,
-    "mappings": "",
+    "mappings": "AEAA,AAAA,MAAM,EASN,eAAe,CATT;EACF,gBAAgB,EAAE,IAAI;EACtB,MAAM,EDAA,CAAC;ECCP,OAAO,EDAE,GAAG,CAAC,IAAI;ECCjB,aAAa,EDAN,GAAG;ECCV,KAAK,EDAE,IAAI;ECCX,MAAM,EDAE,IAAI;ECCZ,KAAK,EAAE,KAAK;CACf;;AACD,AAAA,eAAe,CAAA;EAEX,gBAAgB,EDXH,IAAI;ECYjB,MAAM,EAAE,IAAI;CACf",
     "sources": [
-        "../scss/stylesheet.scss"
+        "../scss/stylesheet.scss",
+        "../scss/_variables.scss",
+        "../scss/_botones.scss"
     ],
     "names": [],
     "file": "stylesheet.css"
