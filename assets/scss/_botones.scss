@@ -7,8 +7,12 @@
     margin: map-get($boton , margen );
     width: 100px;
 }
+
 .boton-primario{
     @extend .boton;
-    background-color: $color-primario;
-    height: auto;
+    @include propiedadesPrincipal (rgb(0, 0, 0), #fff, 100px, auto )
+}
+
+.boton:hover{
+    background-color: rgb(180, 176, 175);
 }

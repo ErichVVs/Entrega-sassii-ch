@@ -9,60 +9,60 @@
 }
 
 .boton-primario {
-  background-color: #000;
+  background-color: black;
+  color: #fff;
+  width: 100px;
   height: auto;
 }
 
-.boton:hover{
-  background-color: rgb(180, 176, 175);
+.boton:hover, .boton-primario:hover {
+  background-color: #b4b0af;
 }
 
-a{
+.primercuadro {
+  background-color: #221907;
+  color: #fff;
+}
+
+a {
   text-decoration: none;
   color: white;
 }
-.navbar ,  footer{
+
+.navbar, footer {
   background-color: #000 !important;
   color: whitesmoke;
 }
-.logo{
-    width: 120px;    
-}
-.primero{
-  background-color: rgb(34, 25, 7);
-  color: whitesmoke;
+
+.logo {
+  width: 120px;
 }
 
-.img{
+.img {
   transition: all 1s;
 }
 
-.img:hover{
+.img:hover {
   width: 380px;
   transform: translate(0px, -20px);
 }
 
-@media (max-width: 992px){
-.ocultarSmMd{
-      display: none;
+@media (max-width: 992px) {
+  .ocultarSmMd {
+    display: none;
   }
 }
 
-@media (max-width: 578px){
-
-.img{
-  transition: all 1s;
+@media (max-width: 578px) {
+  .img {
+    transition: all 1s;
   }
-  
-.img:hover{
-  width: 387px;
-  transform: translate(0px, -20px);
+  .img:hover {
+    width: 387px;
+    transform: translate(0px, -20px);
   }
-  
-.ocultarSm{
-      display: none;
-
-  }    
+  .ocultarSm {
+    display: none;
+  }
 }
-
 /*# sourceMappingURL=stylesheet.css.map */
