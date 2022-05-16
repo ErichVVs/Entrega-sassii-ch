@@ -5,64 +5,48 @@
   border-radius: 5px;
   color: #fff;
   margin: 10px;
-  width: 100px;
-}
+  width: 100px; }
 
 .boton-primario {
   background-color: black;
   color: #fff;
   width: 100px;
-  height: auto;
-}
+  height: auto; }
 
 .boton:hover, .boton-primario:hover {
-  background-color: #b4b0af;
-}
+  background-color: #b4b0af; }
 
 .primercuadro {
   background-color: #221907;
-  color: #fff;
-}
+  color: #fff; }
 
 a {
   text-decoration: none;
-  color: white;
-}
+  color: white; }
 
 .navbar, footer {
   background-color: #000 !important;
-  color: whitesmoke;
-}
+  color: whitesmoke; }
 
 .logo {
-  width: 120px;
-}
+  width: 120px; }
 
 .img {
-  transition: all 1s;
-}
+  transition: all 1s; }
 
 .img:hover {
   width: 380px;
-  transform: translate(0px, -20px);
-}
+  transform: translate(0px, -20px); }
 
 @media (max-width: 992px) {
   .ocultarSmMd {
-    display: none;
-  }
-}
+    display: none; } }
 
 @media (max-width: 578px) {
   .img {
-    transition: all 1s;
-  }
+    transition: all 1s; }
   .img:hover {
     width: 387px;
-    transform: translate(0px, -20px);
-  }
+    transform: translate(0px, -20px); }
   .ocultarSm {
-    display: none;
-  }
-}
-/*# sourceMappingURL=stylesheet.css.map */
+    display: none; } }

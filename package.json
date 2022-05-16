@@ -1,0 +1,27 @@
+{
+  "name": "entrega-sassii-ch",
+  "version": "1.0.0",
+  "description": "Panadería Xocoatl,\r Pastelería,\r Panadería de chocolate en línea!,\r Chocolatosos,\r Repostrería con chocolate,\r Pan de chocolate,\r Pastel de chocolate,\r Orden de pan,\r Panadería ciudad de mexico,\r Pan con cacao,\r Pastel de chocolatoso,\r Orden de pastel en línea,\r Pastelería ciudad de mexico,\r Regalos y desayunos,\r Galletas de chocolate,\r Panques de chocolate,\r Orden de pastelillos en línea,\r Panquería ciudad de mexico,\r Panadería de cacao,\r Cotizaciones de pastel,\r Cotizaciones de pan de chocolate,\r Galletas chocolate ciudad de mexico,",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-css": "node-sass --include-path scss assets/scss/stylesheet.scss assets/css/stylesheet.css",
+    "watch-css": "nodemon -e scss -x \"npm run build-css\""
+
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ErichVVs/Entrega-sassii-ch.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ErichVVs/Entrega-sassii-ch/issues"
+  },
+  "homepage": "https://github.com/ErichVVs/Entrega-sassii-ch#readme",
+  "devDependencies": {
+    "node-sass": "^7.0.1",
+    "nodemon": "^2.0.16"
+  }
+}
